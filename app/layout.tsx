@@ -8,8 +8,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Michel Fawaz ',
-  description: 'Michel fawaz Portfolio Website',
+  title: 'Portfolio',
+  description: 'Muzych Portfolio Website',
 }
 
 export default function RootLayout({
@@ -24,7 +24,6 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex flex-col h-full">{children}</div>
         </ThemeProvider>
-
       </body>
     </html>
   )
