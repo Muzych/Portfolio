@@ -8,25 +8,25 @@ export type EquipmentItem = {
 
 
 export interface GridItemInterface {
-    layout: GridItemLayout | undefined;
-    type: GridItemType | undefined;
-    title: string | undefined;
-    icon?: string | undefined;
-    username?: string | undefined;
-    description?: string | undefined;
-    color?: string | undefined;
-    buttonTitle?: string | undefined;
-    buttonLink?: string | undefined;
-    buttonSecondaryText?: string | undefined;
+    layout: GridItemLayout;
+    type: GridItemType;
+    title: string;
+    icon?: string;
+    username?: string;
+    description?: string;
+    color?: string;
+    buttonTitle?: string;
+    buttonLink?: string
+    buttonSecondaryText?: string
     /* Mentor */
-    promotion?: string | undefined;
-    price?: string | undefined;
-    oldPrice?: string | undefined;
+    promotion?: string
+    price?: string
+    oldPrice?: string
     /* Project */
-    stars?: number | undefined;
+    stars?: number
     /* Equipments */
-    equipments?: EquipmentItem[] | undefined;
-    image?: string | undefined;
+    equipments?: EquipmentItem[]
+    image?: string
 }
 
 const GridItems: GridItemInterface[] = [

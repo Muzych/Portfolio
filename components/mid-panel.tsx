@@ -53,7 +53,6 @@ const MidPanel = () => {
                             <Equipments item={item} />
                         ) : item.type === "skills" ? (
                             <Skills />
-
                         ) :
                             item.type === "experience" ?
                                 (
