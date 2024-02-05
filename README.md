@@ -1,7 +1,7 @@
 TodoList:
 
 - [] Update Avatar
-- [] Change font
+- [X] Change font
 - [] Edit Skills
 - [] Edit Experience
 - [] Update Github Profile
