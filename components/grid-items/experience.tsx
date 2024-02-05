@@ -5,7 +5,7 @@ import { useState } from "react"
 
 
 const Experience = ({ item }: { item: GridItemInterface }) => {
-    const [selectedId, setSelectedId] = useState(null)
+    const [selectedId, setSelectedId] = useState<null | string>(null);
 
     return (
         <><motion.div layoutId={"1"} onClick={() => setSelectedId("1")}>
