@@ -1,6 +1,6 @@
 TodoList:
 
-- [] Update Avatar
+- [X] Update Avatar
 - [X] Change font
 - [] Edit Skills
 - [] Edit Experience

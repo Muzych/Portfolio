@@ -17,9 +17,9 @@ const LeftPanel = () => {
                       priority
                       loading="eager"
                       alt="avatar"
-                      src="/wave.png"    //Todo:更新avatar
-                      width={220}
-                      height={220}
+                      src="/avatar.png"
+                      width={330}
+                      height={330}
                     />
                 </div>
 
