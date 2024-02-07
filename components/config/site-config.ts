@@ -259,7 +259,7 @@ const GridItemsLower: GridItemInterface[] = [
 export const siteConfig = {
     creator: "Muzych",
     title: "Indie Hacker",
-    bio: "Software Engineer | Full Stack Developer | Computer Graphics | Artist | Poet |",
+    bio: "Software Engineer | Full Stack Developer | Computer Graphics | Artist",
     location: "China",
     locationLink: "",
     email: "haxk1024@gmail.com",
