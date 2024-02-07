@@ -27,7 +27,7 @@ const LeftPanel = () => {
                     <div className="text-xl font-medium text-primary">
                         {siteConfig.title}
                     </div>
-                    <h1 className="mt-2 text-4xl font-bold">{siteConfig.creator}</h1>
+                    <h1 className="mt-2 mb-2 text-4xl font-bold">{siteConfig.creator}</h1>
                     <TypewriterComponent
                         options={{
                             strings: [

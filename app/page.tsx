@@ -14,7 +14,7 @@ export default function Home() {
           <RightPanel />
         </div>
         <div className="container relative z-20 flex pb-6 mb-6">
-          <MidPanel />
+          {/* <MidPanel /> */}
         </div>
         <div className="container relative z-20 flex pb-6 ">
           <Footer />

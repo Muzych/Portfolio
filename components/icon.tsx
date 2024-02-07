@@ -75,6 +75,11 @@ const Icons: {
             </g>
         </svg>
     ),
+    telegram: (
+        <svg>   
+
+        </svg>
+    ),
     github: (
         <svg
             width="25"
