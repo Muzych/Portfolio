@@ -122,7 +122,7 @@ const GridItems: GridItemInterface[] = [
     {
         layout: "2x1",
         type: "project",
-        title: "Sign in with Ethereum",
+        title: "广告位，招租中...",
         icon: "github",
         color: "#070707",
         buttonLink: "https://github.com/michelfawazz/SIWE-NextJs-Nestjs",
@@ -131,11 +131,10 @@ const GridItems: GridItemInterface[] = [
     {
         layout: "2x1",
         type: "project",
-        title: "NestJS JWT Auth template",
+        title: "广告位，招租中...",
         icon: "github",
         color: "#070707",
-        stars: 2,
-
+        stars: 2,   
         buttonLink: "https://github.com/michelfawazz/NestJS-Jwt-AUTH-arangodb",
     }
 ];
